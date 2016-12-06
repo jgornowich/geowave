@@ -107,7 +107,7 @@
                                     </transformers>
                                     <createDependencyReducedPom>false</createDependencyReducedPom>
                                     <minimizeJar>false</minimizeJar>
-                                    <finalName>${project.build.finalName}</finalName>
+                                    <finalName>${project.artifactId}</finalName>
                                 </configuration>
                             </execution>
                         </executions>
